@@ -6,9 +6,9 @@ library(agridat)  # The package where the data comes from
 
 # Loading data ----
 Iris <- as.data.frame(iris)
-dim(Iris)
-head(Iris)
-unique(Iris$Species)
+#dim(Iris)
+#head(Iris)
+#unique(Iris$Species)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
@@ -98,4 +98,4 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 
 # Run the application from GitHub
-# runGitHub(repo = "tk_app", username = "TK51")
+# runGitHub(repo = "tk_iris_app", username = "TK51")
