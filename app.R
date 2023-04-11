@@ -6,9 +6,9 @@ library(agridat)  # The package where the data comes from
 
 # Loading data ----
 Iris <- as.data.frame(iris)
-#dim(Iris)
-#head(Iris)
-#unique(Iris$Species)
+dim(Iris)
+head(Iris)
+unique(Iris$Species)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
